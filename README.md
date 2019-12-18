@@ -26,7 +26,6 @@ From the 84 community, we chose dataset from community 4 for this analysis.
 <br>
 a. http://moreno.ss.uci.edu/comm4_att.dat - nodes attributes (291 students) 
 "id", "sex", "race", "grade", "school"
-
 b. http://moreno.ss.uci.edu/comm4.dat - relationships (1396 edges) DL
 "id1", "id2", "relationship score"
 
