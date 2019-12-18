@@ -23,6 +23,7 @@ Dataset description
             - And school codes are 0 and 1 when two schools were in a single community.
 
 From the 84 community, we chose dataset from community 4 for this analysis. 
+<br>
 a. http://moreno.ss.uci.edu/comm4_att.dat - nodes attributes (291 students) 
 "id", "sex", "race", "grade", "school"
 
