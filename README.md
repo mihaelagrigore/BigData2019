@@ -23,36 +23,13 @@ Dataset description
             - And school codes are 0 and 1 when two schools were in a single community.
 
 From the 84 community, we chose dataset from community 4 for this analysis. 
-
-a. http://moreno.ss.uci.edu/comm4_att.dat - nodes attributes (291 students) DL
-NR=457, NC=4
-
-FORMAT = FULLMATRIX DIAGONAL PRESENT
-COLUMN LABELS:
-"sex"
-"race"
-"grade"
-"school"
-LEVEL LABELS:
-"Page 1"
-DATA:
-2 3 10 1
-2 1 10 1
-1 1 10 1
-....
+a. http://moreno.ss.uci.edu/comm4_att.dat - nodes attributes (291 students) 
+"id", "sex", "race", "grade", "school"
 
 b. http://moreno.ss.uci.edu/comm4.dat - relationships (1396 edges) DL
-N=457
-FORMAT=EDGELIST1
-DATA:
-1 123 4.00
-1 127 2.00
-1 128 3.00
-....
-Friendship information
+"id1", "id2", "relationship score"
 
 Friendship has a score, therefore we are dealing with a weighted network. The relationship score is constructed as follows:
-
 "For each friend named, the student was asked to check off whether he/she participated in any of five activities with the friend. These activities were:
 
     you went to (his/her) house in the last seven days.
